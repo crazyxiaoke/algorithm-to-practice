@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+G:/algorithm/c++/InsertionSort.h
+
+G:/algorithm/c++/MergeSort.h
+
+G:/algorithm/c++/SelectionSort.h
+iostream
+-
+
+G:/algorithm/c++/SortTestHelper.h
+iostream
+-
+ctime
+-
+cassert
+-
+
+G:/algorithm/c++/Student.h
+iostream
+-
+string
+-
+
+G:/algorithm/c++/main.cpp
+iostream
+-
+Student.h
+G:/algorithm/c++/Student.h
+SelectionSort.h
+G:/algorithm/c++/SelectionSort.h
+InsertionSort.h
+G:/algorithm/c++/InsertionSort.h
+SortTestHelper.h
+G:/algorithm/c++/SortTestHelper.h
+MergeSort.h
+G:/algorithm/c++/MergeSort.h
+
